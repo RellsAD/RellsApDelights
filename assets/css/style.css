@@ -1,0 +1,64 @@
+body{
+    background-color: floralwhite;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.logo{
+    border-radius: 300px;
+    height: 300px;
+    width: 300px;
+}
+/* img.rotateIn{
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+} */
+img.animate__animated.animate__rotateIn {
+    --animate-duration: 5s;
+    --animate-delay: 2s;
+    animation-iteration-count: 1;
+}
+.menu{
+    text-align: center;
+}
+.price{
+    text-align: center;
+}
+.header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:medium;
+}
+.name{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+/* div.chef{
+    border-radius: 250px;
+    height: 200px;
+    width: 200;
+} */
+
+img.chef{
+    border-radius: 50px;
+    height: 10x;
+    width: 20;
+}
+.card-img-top:hover{
+    width: 300px;
+    height: 300px;
+    ;
+}
+.d-block{
+    height: 250px;
+    width: 150px;
+}
+h6{
+    text-align: center;
+}
+.phone{
+    height: 20px;
+    width: 20px;
+    text-align: center;
+}
